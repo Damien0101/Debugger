@@ -7,7 +7,7 @@ message = "The highest score among players is: "
 
 
 for score in player_scores:
-    if score > highest_score:
+    if score < highest_score:
         highest_score = score
 
 message += str(highest_score)
